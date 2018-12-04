@@ -5,7 +5,7 @@
 
 ## NGINX
 
-*http://unix:/home/ubuntu/djangoagent/mysite.sock* is the connection between NGINX and gunicorn
+**http://unix:/home/ubuntu/djangoagent/mysite.sock** is the connection between NGINX and gunicorn
 
 ```
    location / 
@@ -17,7 +17,7 @@
 
 ## GUNICORN
 
-*/home/ubuntu/djangoagent mysite.wsgi* is the connection between django and gunicorn
+**/home/ubuntu/djangoagent mysite.wsgi** is the connection between django and gunicorn
 
 
 ## Start in directory containing mysite directory
